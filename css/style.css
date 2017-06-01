@@ -1,0 +1,251 @@
+/*Your CSS here*/
+
+.page-title {
+    margin-bottom: 20vh;
+    text-align: center;
+}
+
+.page-title h1 {
+    text-align: center;
+    background: #98e0d0;
+}
+
+.input-form label {
+    color: #717171;
+}
+
+.input-form input[type="text"],
+.input-form input[type="date"],
+.input-form input[type="datetime"],
+.input-form input[type="email"],
+.input-form input[type="number"],
+.input-form input[type="search"],
+.input-form input[type="time"],
+.input-form input[type="url"],
+.input-form textarea,
+.input-form select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255, 255, 255, .1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    /*width: 100%;*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.input-form input[type="text"]:focus,
+.input-form input[type="date"]:focus,
+.input-form input[type="datetime"]:focus,
+.input-form input[type="email"]:focus,
+.input-form input[type="number"]:focus,
+.input-form input[type="search"]:focus,
+.input-form input[type="time"]:focus,
+.input-form input[type="url"]:focus,
+.input-form textarea,
+.input-form select {
+    background: #d2d9dd;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#sortable div {
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    /*height: 18px;*/
+}
+
+#sortable div span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+
+#container0 {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+}
+
+#container0 span {
+    text-align: center;
+    width: 100%;
+}
+
+#container0 span h3 {
+    background: #def2f2;
+}
+
+#container0 #mysort0 {
+    width: 100%;
+}
+
+#mysort0 {
+    /*text-align: center;*/
+    width: 100%;
+}
+
+.sortable_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*width: 33%;*/
+    border-style: solid;
+    border-width: 1px;
+    min-height: 200px;
+}
+
+.sortable_list div {
+    /*margin: 2px;*/
+    padding: 0.4em;
+    /*padding-left: 3em;*/
+    font-size: 14px;
+    /*height: 20px;*/
+}
+
+div span {
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+.container h3 {
+    background: #def2f2;
+    text-align: center;
+}
+
+.container span,
+.container div {
+    float: left;
+    width: 100%;
+}
+
+.mylist {
+    background-color: orange;
+    border: 2px solid green;
+}
+
+.ui-sortable-helper {
+    -webkit-box-shadow: 0px 0px 20px 14px rgba(0, 178, 214, 1);
+    box-shadow: 0px 0px 20px 14px rgba(0, 178, 214, 1);
+}
+
+#mysort0 .ui-state-default {
+    /*margin: 0 auto;*/
+    /*width: 35%;*/
+}
+
+.ui-state-default input {
+    float: right;
+}
+
+.employee-thumb {
+    width: 10%;
+}
+
+.over-placeholder {
+    background: #dee0df;
+    /*min-height: 200px;*/
+}
+
+.ui-sortable-placeholder {
+    /*height: 100px;*/
+    line-height: 1.2em;
+    background: #dee0df;
+    visibility: visible !important;
+}
+
+.employee-thumb-view-container {
+    display: inline-block;
+    max-width: 45%;
+    border: 1px solid #ddd;
+}
+
+.employee-thumb-view {
+    width: 100%;
+    min-height: 200px;
+}
+
+#employee_detail .table {
+    width: 50%;
+    float: right;
+}
+
+#employee_detail .table .info-e {
+    text-align: center;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens / 1200 felett*/
+
+@media only screen and (min-width: 1200px) {}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
